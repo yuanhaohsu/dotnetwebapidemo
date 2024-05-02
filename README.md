@@ -16,6 +16,10 @@ Status:
 
 02/05/2024
 -- Adding 
+#33
+Disable Hot Reload:
+Add new enetities: \API\Entities\AppUser.cs
+dotnet ef migrations add UserPasswordAdded 
 #Lecture 34 
 Creat BaseApiController at \dotnetwebapidemo-master\API\Controllers\BaseApiController.cs
 #35
