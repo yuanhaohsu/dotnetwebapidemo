@@ -11,3 +11,4 @@ Lecture 28:
          //   "sslKey": "./ssl/localhost-key.pem"
          //  },
 After added is unable to turn on ng serve
+https://stackoverflow.com/questions/39774194/ng-serve-does-not-work-after-a-double-install
