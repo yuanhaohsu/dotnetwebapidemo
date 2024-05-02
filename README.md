@@ -1,7 +1,7 @@
 Lecture 25 issues with CORS support:
 Error message: Access to XMLHttpRequest at 'http://localhost:5194/api/users' from origin 'http://localhost:4200' 
 has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-Status: Unable Solve
+Status: sovled 
 
 
 Lecture 28:
@@ -12,3 +12,11 @@ Lecture 28:
          //  },
 After added is unable to turn on ng serve
 https://stackoverflow.com/questions/39774194/ng-serve-does-not-work-after-a-double-install
+Status:
+
+02/05/2024
+-- Adding 
+#Lecture 34 
+Creat BaseApiController at \dotnetwebapidemo-master\API\Controllers\BaseApiController.cs
+#35
+Create AccountController.cs at \dotnetwebapidemo-master\API\Controllers\AccountController.cs
