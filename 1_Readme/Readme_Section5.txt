@@ -51,4 +51,10 @@ modify -    nav.component.ts
 #56 
 => unsubscribe
 add property in nav.component.ts
-modify - nav.component.html
+modify - nav.component.html added "currentUser | async"
+
+#57 
+-   ng g c home --skip-tests --dry-run
+modify -    home.component.html
+modify -    home.component.ts
+modify -    app.component.html

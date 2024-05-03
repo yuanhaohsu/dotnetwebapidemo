@@ -21,13 +21,10 @@ export class NavComponent implements OnInit{
 <app-nav></app-nav>
 
 <div class="container" style="margin-top: 100px;">
-    <ul>
-        <li *ngFor="let user of users">
-            {{user.id}} - {{user.username}}
-        </li>
-    </ul>
+    <app-home></app-home>
 </div>
 
+=============================================================================================================================================
 
 app.component.ts
 #55
