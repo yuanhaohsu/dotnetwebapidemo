@@ -53,8 +53,14 @@ modify -    nav.component.ts
 add property in nav.component.ts
 modify - nav.component.html added "currentUser | async"
 
-#57 
+#57   create new home page
 -   ng g c home --skip-tests --dry-run
 modify -    home.component.html
 modify -    home.component.ts
 modify -    app.component.html
+
+#58 create new Register component
+-   ng g c register --skip-tests --dry-run
+modify - register.component.html
+modify - register.component.ts
+modify -    home.component.html
