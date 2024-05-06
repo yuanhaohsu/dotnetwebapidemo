@@ -15,7 +15,7 @@ import { User } from '../_models/user';
 //56 - loggeIn: = false
 //currentUser$ = Observable<User | null> = of(null);
 
-  constructor(public accountService: AccountService, private router: Router, private toastr: Toastr) { } //66
+  constructor(public accountService: AccountService, private router: Router, private toastr: ToastrService) { } //66,67
 //55    but for temporary purposes
   ngOnInit(): void {
  //this.currentUser$ = this.acoountService.currentUser$;
@@ -26,7 +26,7 @@ import { User } from '../_models/user';
   login() {
     this.accountService.login(this.model).subscribe({
       next: _ => this.router.navigatebyUrl('/members'),  //66
-      error: error => console.log(error)
+      error: error => this.toastr.error(error.error) //67
     })
   }
 //52
