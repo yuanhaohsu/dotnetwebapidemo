@@ -13,7 +13,10 @@ import { RouterModule, Routes } from '@angular/router';
    
   ]
 },
-{path: '**', component: HomeComponent pathMatch:'full'},// Path Matching 
+{path: 'errors', component: TestErrorsComponent},
+{path: 'not-found', component: NotFoundComponent},
+{path: 'server-error', component: ServerErrorComponent},
+{path: '**', component: NotFoundComponent, pathMatch: 'full'}, // path matching
 ];
 
 
