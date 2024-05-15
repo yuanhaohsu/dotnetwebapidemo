@@ -52,3 +52,4 @@ https://valor-software.com/ngx-bootstrap/#/components/datepicker?tab=overview
 #149
 (modify) - register.component.html
 (modify) - register.component.ts
+(modify) - photo-editor.component.ts
