@@ -16,3 +16,6 @@
 #201
 (modify) - API/Data/DataContext.cs
 nuget gallery: "Microsoft.AspNetCore.Identity.EntityFrameworkCore Version="7.0.9" />
+
+#202
+(modify) - API/Extensions/IdentityServiceExtensions.cs
